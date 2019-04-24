@@ -33,6 +33,7 @@ public class LeisuMatchBaseDaoImpl implements LeisuMatchBaseDao {
         System.out.println("测试一下");
         System.out.println("测试两下");
         System.out.println("测试三项");
+        System.out.println("测试四下");
         return (LeisuMatchBasePO) c.uniqueResult();
     }
 }
