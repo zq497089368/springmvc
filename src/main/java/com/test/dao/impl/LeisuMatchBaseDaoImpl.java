@@ -32,6 +32,7 @@ public class LeisuMatchBaseDaoImpl implements LeisuMatchBaseDao {
         c.add(Restrictions.eq("id", id));
         System.out.println("测试一下");
         System.out.println("测试两下");
+        System.out.println("测试三项");
         return (LeisuMatchBasePO) c.uniqueResult();
     }
 }
