@@ -30,6 +30,7 @@ public class LeisuMatchBaseDaoImpl implements LeisuMatchBaseDao {
 
         Criteria c = sessionFactory.getCurrentSession().createCriteria(LeisuMatchBasePO.class);
         c.add(Restrictions.eq("id", id));
+        System.out.println("测试一下");
         return (LeisuMatchBasePO) c.uniqueResult();
     }
 }
